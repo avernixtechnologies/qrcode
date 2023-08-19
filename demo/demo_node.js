@@ -6,7 +6,7 @@ const fs = require('fs');
 
 var config = {
   // ====== Basic
-  text: 'www.easyproject.cn/donation',
+  text: 'www.avernix.com',
   width: 256,
   height: 256,
   quietZone: 0,
@@ -18,7 +18,7 @@ var config = {
 
 var config2 = {
   // ====== Basic
-  text: 'www.easyproject.cn/donation',
+  text: 'www.avernix.com',
 
   width: 400,
   height: 400,
@@ -54,7 +54,7 @@ var config2 = {
 
 var config3 = {
   // ====== Basic
-  text: 'www.easyproject.cn/donation',
+  text: 'www.avernix.com',
 
   width: 400,
   height: 400,
@@ -67,7 +67,7 @@ var config3 = {
   quietZone: 15,
 
   // === Title
-  title: 'EasyQRCode', // Title
+  title: 'Avernix', // Title
   titleFont: 'normal normal bold 24px Arial', // Title font
   titleColor: '#004284', // Title Color
   titleBackgroundColor: '#ffffff', // Title Background
@@ -101,7 +101,7 @@ var config3 = {
   // === Logo
   // logo: "https://avatars1.githubusercontent.com/u/4082017?s=160&v=4", // LOGO
   logo: 'avatars.png', // LOGO
-  //					logo:"http://127.0.0.1:8020/easy-qrcodejs/demo/logo.png",
+  //					logo:"LINK TO IMAGE",
   //					logoWidth:80,
   //					logoHeight:80,
   logoBackgroundColor: '#FFF8DC', // Logo backgroud color, Invalid when `logBgTransparent` is true; default is '#ffffff'
@@ -119,7 +119,7 @@ var config3 = {
 
 var config4 = {
   // ====== Basic
-  text: 'www.easyproject.cn/donation',
+  text: 'www.avernix.com',
 
   width: 400,
   height: 400,
@@ -153,7 +153,7 @@ var config4 = {
   // === Logo
   // logo: "https://avatars1.githubusercontent.com/u/4082017?s=160&v=4", // LOGO
   logo: './avatars.png', // LOGO
-  //					logo:"http://127.0.0.1:8020/easy-qrcodejs/demo/logo.png",
+  //					logo:"LINK TO IMAGE",
   //					logoWidth:80,
   //					logoHeight:80,
   logoBackgroundColor: '#FFF8DC', // Logo backgroud color, Invalid when `logBgTransparent` is true; default is '#ffffff'
@@ -231,7 +231,7 @@ qrcode8.saveSVG({
 
 var streamConfig = {
   // ====== Basic
-  text: 'https://github.com/ushelp/EasyQRCodeJS-NodeJS',
+  text: 'https://avernix.com',
   colorLight: 'transparent',
   width: 150,
   height: 150,
