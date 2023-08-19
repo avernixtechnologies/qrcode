@@ -37,7 +37,7 @@
     "qrcode generator"
   ],
   "bugs": {
-    "url": "https://github.com/ushelp/EasyQRCodeJS-NodeJS/issues "
+    "url": "https://github.com/avernixtechnologies/qrcode/issues "
   },
   "license": "MIT",
   "dependencies": {
