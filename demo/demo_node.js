@@ -245,7 +245,7 @@ async function generate() {
   const out = fs.createWriteStream(`qrcode-stream.png`);
   // const stream = await streamQrcode.toStream();
   // stream.pipe(out);
-  // out.on('finish', () => console.log('Finsihed'));
+  // out.on('finish', () => console.log('Finished'));
 
   streamQrcode.toStream().then((res) => {
     res.pipe(out).on('finish', () => console.log('Stream Finished'));
