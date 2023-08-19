@@ -9,9 +9,7 @@ Forked from EasyQRCodeJS-NodeJS
 
 - [Avernix Technologies QRCode](#avernix-technologies-qrcode)
   - [Table of contents](#table-of-contents)
-  - [Choose what you need](#choose-what-you-need)
   - [Feature](#feature)
-  - [Try It!](#try-it)
   - [Demo preview](#demo-preview)
   - [QR Code Structure](#qr-code-structure)
   - [Installation](#installation)
@@ -22,16 +20,7 @@ Forked from EasyQRCodeJS-NodeJS
     - [Methods](#methods)
   - [TypeScript Support](#typescript-support)
   - [License](#license)
-  - [EasyQRCodeJS-NodeJS-Premium](#easyqrcodejs-nodejs-premium)
   - [End](#end)
-
-## Choose what you need
-
-| Project | Support |
-| --- | --- |
-| [EasyQRCodeJS](https://github.com/ushelp/EasyQRCodeJS) | **Running with DOM on CLIENT-SIDE .** Browser(IE6+, Chrome, Firefox, Safari, Opera, Mobile Safari, Android, Windows Mobile, ETC.), Electron, NW.js, ETC.  |
-| [EasyQRCodeJS-NodeJS](https://github.com/ushelp/EasyQRCodeJS-NodeJS) | **Running without DOM on SERVER-SIDE**. Save image to file(PNG/JPEG/SVG) or get data url text.  NodeJS, Electron, NW.js, ETC.|
-| [EasyQRCode-React-Native](https://github.com/ushelp/EasyQRCode-React-Native) | **A QRCode generator for React Native**. Generate QRCode image or get base64 data url text. |
 
 ## Feature
 
@@ -66,43 +55,6 @@ Forked from EasyQRCodeJS-NodeJS
     - Support binary(hex) data mode
 
     - Support TypeScript
-    
-- **中文**
-
-    - 无需 DOM 的服务端 QRCode 图片保存
-
-	- 支持存储为 PNG 图片
-
-	- 支持获得 Base64 编码的标准图形 URL 字符串：`data:image/png;base64, ...`
-    
-    - 支持获得 SVG 图形文本: `<svg xmlns:xlink="http://www.w3.org/1999/xlink" ...`
-
-    - 支持从 Canvas 获得图片 Stream
-    
-    - 支持点形风格的 Required Patterns
-
-    - 支持 Quiet Zone 设置
-	
-    - 支持自定义 Position Pattern 内填充和外边框颜色
-	
-    - 支持自定义 Alignment Pattern 内填充和外边框颜色
-
-    - 支持自定义 Timing Patterns 垂直，水平颜色
-
-    - 支持 Logo 图片（包括背景透明的 PNG 图片）
-
-    - 支持 Background Image 背景图片
-
-    - 支持标题，副标题设置
-
-    - 二进制数据模式支持
-
-    - TypeScript 支持
-
-## Try It!
-
-[Try It!](http://www.easyproject.cn/easyqrcodejs/tryit.html "EasyQRCodeJS Try It!")
-
 ## Demo preview
 
 ![Demo preview](doc/images/demo.png)
@@ -115,18 +67,18 @@ Forked from EasyQRCodeJS-NodeJS
 ## Installation
 
 ```HTML
-npm install easyqrcodejs-nodejs
+npm i @trarn/qrcode
 ```
 
 
 ## Basic Usages
 
 ```JS
-const QRCode = require('easyqrcodejs-nodejs');
+const QRCode = require('@trarn/qrcode');
 
 // Options
 var options = {
-	text: "www.easyproject.cn/donation"
+	text: "www.avernix.com"
 };
 
 // New instance with options
@@ -152,7 +104,7 @@ var qrcode = new QRCode(options);
 ```JS
  var options = {
     // ====== Basic
-    text: "https://github.com/ushelp/EasyQRCodeJS",
+    text: "https://github.com/avernixtechnologies/qrcode",
     width: 256,
     height: 256,
     colorDark : "#000000",
@@ -181,7 +133,7 @@ var qrcode = new QRCode(options);
     // ====== Logo
     /*
     logo: "../demo/logo.png", // Relative address, relative to `easy.qrcode.min.js`
-    logo: "http://127.0.0.1:8020/easy-qrcodejs/demo/logo.png", 
+    logo: "https://avernix.com/images/avernix-technologies-icon.png", 
     logoWidth: 80, // fixed logo width. default is `width/3.5`
     logoHeight: 80, // fixed logo height. default is `heigth/3.5`
     logoMaxWidth: undefined, // Maximum logo width. if set will ignore `logoWidth` value
@@ -408,48 +360,16 @@ var qrcode = new QRCode(options);
 Update to version `3.7.1+`.
 
 ```Javascript
-import QRCode = require("easyqrcodejs-nodejs")
+import QRCode = require("@trarn/qrcode")
 ```
 
 ## License
 MIT License
-
-## EasyQRCodeJS-NodeJS-Premium
-
-*Let you draw freely!*
-
-**EasyQRCodeJS-Premium** is a more powerful and comprehensive enterprise version. You can use Canvas to customize any element, such as eye frame shape, eyeball shape, QR code block shape, and more. Also supports excavation (to prevent the QRcode overlap with the logo), random block mode.
-
-If you need more functions, we can provide you with customized development of API libraries or products. please contact me to buy the business enterprise edition.
-
-**EasyQRCodeJS-Premium** 是功能更加强大和全面的商业/企业版本。让您可以在 QRCode 中通过 Canvas 自定义任何喜欢的元素，例如  Eye frame 形状, Eye ball 形状, QR Body block 形状等等。 还支持 Logo 挖取（excavation，防止二维码与 Logo 重叠）和 Random bolock mode.
-
-如果您需要更多功能，我们可以为您提供 API 库或产品的定制开发。请联系我购买商业/企业版本。
-
-![Premium demo preview](doc/images/demo-premium.png)
-
 ## End
 
-Email：<inthinkcolor@gmail.com>
+Email：<kyle@avernix.com>
 
-[http://www.easyproject.cn](http://www.easyproject.cn "EasyProject Home")
+[http://www.avernix.com](http://www.avernix.com "Avernix Technologies Home")
 
-
-**Donation/捐助:**
-
-<a href="http://www.easyproject.cn/donation">
-<img alt="
-支付宝/微信/QQ/云闪付/PayPal 扫码支付" src="http://www.easyproject.cn/thanks/donation.png"  title="支付宝/微信/QQ/云闪付/PayPal 扫码支付"  height="320" width="320"></img></a>
-<div>支付宝/微信/QQ/云闪付/PayPal</div>
-
-<br/>
-
-我们相信，每个人的点滴贡献，都将是推动产生更多、更好免费开源产品的一大步。
-
-**感谢慷慨捐助，以支持服务器运行和鼓励更多社区成员。**
-
-We believe that the contribution of each bit by bit, will be driven to produce more and better free and open source products a big step.
-
-**Thank you donation to support the server running and encourage more community members.**
 
 
