@@ -1,27 +1,29 @@
-# EasyQRCodeJS-NodeJS
+# Avernix Technologies QRCode
 
-EasyQRCodeJS-NodeJS is a NodeJS server side javascript QRCode image(PNG/JPEG/SVG/Base64 data url) generator. Support setting Dot style, Logo, Background image, Colorful, Title and more. Support binary(hex) data mode.
+Avernix Technologies QRCode generator is a NodeJS server side javascript QRCode image(PNG/JPEG/SVG/Base64 data url) generator. Support setting Dot style, Logo, Background image, Colorful, Title and more. Support binary(hex) data mode.
 
-EasyQRCodeJS-NodeJS 是一个 NodeJS 环境下的服务端 JavaScript QRCode 图片(PNG/JPEG/SVG/Base64 data url)生成模块。支持点状风格，Logo，背景图片，规则色彩控制，标题等设置。支持二进制数据模式。
+Forked from EasyQRCodeJS-NodeJS
+
 
 ## Table of contents
 
-- [Table of contents](#table-of-contents)
-- [Choose what you need](#choose-what-you-need)
-- [Feature](#feature)
-- [Try It!](#try-it)
-- [Demo preview](#demo-preview)
-- [QR Code Structure](#qr-code-structure)
-- [Installation](#installation)
-- [Basic Usages](#basic-usages)
-- [QRCode API](#qrcode-api)
+- [Avernix Technologies QRCode](#avernix-technologies-qrcode)
+  - [Table of contents](#table-of-contents)
+  - [Choose what you need](#choose-what-you-need)
+  - [Feature](#feature)
+  - [Try It!](#try-it)
+  - [Demo preview](#demo-preview)
+  - [QR Code Structure](#qr-code-structure)
+  - [Installation](#installation)
+  - [Basic Usages](#basic-usages)
+  - [QRCode API](#qrcode-api)
     - [Object](#object)
     - [Options](#options)
     - [Methods](#methods)
-- [TypeScript Support](#typescript-support)
-- [License](#license)
-- [EasyQRCodeJS-NodeJS-Premium](#easyqrcodejs-nodejs-premium)
-- [End](#end)
+  - [TypeScript Support](#typescript-support)
+  - [License](#license)
+  - [EasyQRCodeJS-NodeJS-Premium](#easyqrcodejs-nodejs-premium)
+  - [End](#end)
 
 ## Choose what you need
 
